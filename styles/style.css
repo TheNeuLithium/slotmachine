@@ -220,6 +220,10 @@ header a {
      width: 20em;
      height: 20em;
 }
+.w3-container{
+  margin:auto;
+  width:98%;
+}
 /*
  * Footer
  */
@@ -345,7 +349,6 @@ footer{
     #casino .content > div {
       padding-top:0px;
       left:50%;
-      padding-right: 20%;
       width: 100%;
       /*jiaqi...width: 300px;*/
       margin: 0px auto;
@@ -375,7 +378,7 @@ footer{
 
  .center{
    margin: auto;
-   width: 50%;
+   width: 45.5%;
    height:auto;
  }
  .line{
@@ -402,5 +405,14 @@ footer{
   }
   .w3-bar {
     margin:50px 0px 0px 0px;
+  }
+  .w3-button{
+    font-size: 12px;
+    margin:auto;
+    width:80%;
+  }
+  .w3-container{
+    margin:auto;
+    width:90%;
   }
   }

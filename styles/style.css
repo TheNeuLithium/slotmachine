@@ -82,6 +82,10 @@ li{
   background-image: url("../img/audio.gif");
   background-size: auto;
 }
+.slotLogo {
+  background-image: url("../img/logo.gif");
+  background-size: auto;
+}
 .slot0 {
   background-image: url("../img/slot0.png");
   background-size: auto;
@@ -157,13 +161,14 @@ header a {
    /*jiaqi...background of slotmachine*/
    background: url('../img/machine2.png') no-repeat 30% 30% ;
    background-size: 90%;
+   margin: 0px 2% 0px 2%;
    /*background-position-x: calc(50% + 30px);*/
    min-height: 680px;
  }
 
  #casino .content > div {
    padding-top: 255px;
-   width: 80%;
+   width: 90%;
    /*jiaqi...width: 300px;*/
    margin: 0 auto;
    transform: translateX(50px);
@@ -207,7 +212,7 @@ header a {
  }
 
 .btn-group{
-     left:90%;
+     left:87%;
      top:45%;
      position:fixed;
      z-index: 999999999;
@@ -307,16 +312,16 @@ footer{
       /*background: url('../img/machineMobile.png') no-repeat;*/
       background-position:0px 0px;
       background-size: cover;
-      margin: 0px 0px 0px 0px;
+      margin: 0px 100px 0px 0px;
       background-size: 0%;
       /*background-position-x: calc(50% + 30px);*/
       min-height: auto;
     }
     #casino .content > div {
       /*padding-top: 50px;*/
-      width: 90%;
+      width: 95%;
       /*jiaqi...width: 300px;*/
-      margin: -170px -0px 0px 0px;
+      margin: -170px 20% 0px 20%;
       transform: translateX(-50px);
     }
 
@@ -336,8 +341,8 @@ footer{
   }
 
  .btn-group{
-      left:20%;
-      right:50%;
+      left:45%;
+      right:45%;
       top:76%;
       position:fixed;
       z-index: 999999999;
@@ -353,7 +358,7 @@ footer{
 
 
   .slotMachine{
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
     width: 300px;
     height: 300px;
     display: inline-block;

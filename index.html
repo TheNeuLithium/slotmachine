@@ -53,8 +53,7 @@
         </div>
 
         <div id="casino2" class="slotMachine">
-          <div class="slot ">
-            <div id="video0"></div>
+          <div class="slot slotLogo">
           </div>
           <div class="slot ">
             <div id="video1"></div>
@@ -108,13 +107,13 @@
 
     <hr width="100%" style="border: 4px dotted #ccd500" color="#000000" size="5">
 
-      <div class="w3-bar w3-black">
+      <div class="w3-bar w3-black" style="padding:0px 30px 30px 30px">
         <button class="w3-bar-item w3-button tablink w3-yellow" onclick="openCity(event,'London')">Call for submission</button>
         <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">About</button>
         <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Credit</button>
       </div>
 
-      <div id="London" class="w3-container w3-border city" style="padding:30px 0px 30px 0px">
+      <div id="London" class="w3-container w3-border city" style="padding:30px 0px 0px 0px">
         <div>
           <p>How to submit:<br><br> 1. Feel free to submit to any or all categories: Sound Clip, Video,Text.<br><br> 2. You are welcome to submit more than one work for each category for us to choose from, but we will show only one work by you under each
             slot.<br><br> 3. All submissions are due to <a href="tnleditorial@lithium.gallery" style="color: #ccd500">tnleditorial@lithium.gallery</a>.<br><br> 4. Category Details:<br><br>
@@ -200,19 +199,7 @@
 
     function onYouTubeIframeAPIReady() {
       /////VIDEO WORKS////
-      //Lithium Logo
-      video0 = new YT.Player('video0', {
-        height: '100%',
-        width: '100%',
-        videoId: 'JOZPKYCbVsI',
-        playerVars: {
-          'rel': 0,
-          'controls': 0,
-          'autoplay': 1,
-          'loop':1,
-          'playlist': 'JOZPKYCbVsI'
-        }
-      });
+
       //Harrison
       video1 = new YT.Player('video1', {
         height: '100%',
@@ -288,7 +275,8 @@
         videoId: 'rGycZ_wgSHU',
         playerVars: {
           'rel': 0,
-          'controls': 0
+          'controls': 0,
+          'autoplay': 1
         }
       });
       //Katie
@@ -406,7 +394,6 @@
             console.log("videoFile"+ mCasino2.visibleTile);
             if (mCasino2.visibleTile == 0) {
               video0.playVideo();
-              video0.mute();
             }
             if (mCasino2.visibleTile == 1) {
               video1.playVideo();

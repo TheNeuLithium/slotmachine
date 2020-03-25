@@ -348,7 +348,6 @@ footer{
     }
     #casino .content > div {
       padding-top:0px;
-      left:50%;
       width: 100%;
       /*jiaqi...width: 300px;*/
       margin: 0px auto;
@@ -378,7 +377,7 @@ footer{
 
  .center{
    margin: auto;
-   width: 45.5%;
+   width: 45%;
    height:auto;
  }
  .line{

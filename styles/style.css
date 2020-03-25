@@ -341,7 +341,7 @@ footer{
       /*background: url('../img/machineMobile.png') no-repeat;*/
       background-position:0px 0px;
       background-size: cover;
-      margin: 0px -50px 0px 0px;
+      margin: 0px 0px 0px 0px;
       background-size: 0%;
       /*background-position-x: calc(50% + 30px);*/
       min-height: auto;
@@ -378,7 +378,7 @@ footer{
 
  .center{
    margin: auto;
-   width: 42%;
+   width: 100%;
    height:auto;
  }
  .line{

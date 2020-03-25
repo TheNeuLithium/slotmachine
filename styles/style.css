@@ -330,7 +330,7 @@ footer{
     }
     #casino{
       background: url('../img/machineMobile.png') no-repeat;
-      background-position:20px 0px;
+      background-position:0px 0px;
       background-size: contain;
       background-size: 90%;
       background-color: #000000;

@@ -351,7 +351,7 @@ footer{
       width: 100%;
       /*jiaqi...width: 300px;*/
       margin: auto;
-      transform: translateX(50px);
+      /*transform: translateX(50px);*/
     }
 
   #casino .btn-group .btn {
@@ -377,7 +377,7 @@ footer{
 
  .center{
    margin: auto;
-   width: 45%;
+   width: 42%;
    height:auto;
  }
  .line{

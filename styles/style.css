@@ -319,12 +319,10 @@ footer{
       font-size: 12px;
       color:white;
     }
-
     .audioSlot {
       background-image: url("../img/audioMobile.gif");
       background-size: auto;
     }
-
     #casino{
       background: url('../img/machineMobile.png') no-repeat;
       background-position:30px 0px;
@@ -397,5 +395,8 @@ footer{
   }
   .textSlot{
     height: 150px;
+  }
+  .w3-bar {
+    margin:50px 0px 0px 0px;
   }
   }

@@ -267,13 +267,11 @@ footer{
     background-color: #000000;
   }
   #casino .content > div {
-    padding-top: 0px;
-    padding-left:20px;
-    padding-right:20px;
-    width: 100%;
+    padding-top: 95px;
+    width: 90%;
     /*jiaqi...width: 300px;*/
     margin: 0px auto;
-    /*transform: translateX(-50)px);*/
+    /*transform: translateX(50px);*/
   }
   #casino .btn-group .btn {
     padding: 30px;
@@ -289,9 +287,12 @@ footer{
     display: block;
     margin: 0px 5px 0px 5px;
   }
+
   .slotMachine{
     width: 150px;
-    height:200px;
+    border: 5px solid #000000;
+    height: 150px;
+    margin-left: -20px;
     display: inline-block;
   }
   .soundSlot{
@@ -335,17 +336,17 @@ footer{
       /*background: url('../img/machineMobile.png') no-repeat;*/
       background-position:0px 0px;
       background-size: cover;
-      margin: 5px 0px 0px 0px;
+      margin: 0px 0px 0px 0px;
       background-size: 0%;
       /*background-position-x: calc(50% + 30px);*/
       min-height: auto;
     }
     #casino .content > div {
-      /*jiaqi...width: 300px;*/
+      padding-top: 0px;
       width: 90%;
-      margin: -15px 5% 0px 5%;
-      /*transform: translateX(-50px);*/
-      min-height: auto;
+      /*jiaqi...width: 300px;*/
+      margin: 0px auto;
+      /*transform: translateX(50px);*/
     }
 
   #casino .btn-group .btn {

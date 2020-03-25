@@ -340,7 +340,7 @@ footer{
       background-size: cover;
       margin: 0px 0px 0px 0px;
       background-size: 0%;
-      background-position-x: calc(50% + 30px);
+      /*background-position-x: calc(50% + 30px);*/
       min-height: auto;
     }
     #casino .content > div {

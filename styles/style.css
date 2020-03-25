@@ -377,7 +377,7 @@ footer{
  }
 
  .center{
-   margin: auto;
+   margin:0px 0px 0px 0px;
    width: 100%;
    height:auto;
  }
@@ -390,7 +390,7 @@ footer{
   }
 
   .slotMachine{
-    margin: 0px -50px 0px 0px;
+    margin: 0px 0px 0px 0px;
     width: 300px;
     height: 300px;
     display: inline-block;

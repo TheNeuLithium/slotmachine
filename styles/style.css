@@ -324,7 +324,7 @@ footer{
     }
     #casino{
       background: url('../img/machineMobile.png') no-repeat;
-      background-position:30px 0px;
+      background-position:20px 0px;
       background-size: contain;
       background-size: 90%;
       background-color: #000000;
@@ -335,10 +335,10 @@ footer{
       /*background: url('../img/machineMobile.png') no-repeat;*/
       background-position:0px 0px;
       background-size: cover;
-      margin: 0px 25px 0px 25px;
+      margin: 0px 0px 0px 0px;
       background-size: 0%;
       /*background-position-x: calc(50% + 30px);*/
-      min-height: 0px auto;
+      min-height: auto;
     }
     #casino .content > div {
       padding-top: 0px;

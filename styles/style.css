@@ -350,8 +350,8 @@ footer{
       padding-top:0px;
       width: 100%;
       /*jiaqi...width: 300px;*/
-      margin: 0px auto;
-      /*transform: translateX(50px);*/
+      margin: auto;
+      transform: translateX(50px);
     }
 
   #casino .btn-group .btn {
@@ -370,7 +370,7 @@ footer{
   }
 
  .btn-group{
-      top:5%;
+      top:0%;
       position:relative;
       z-index: 999999999;
  }

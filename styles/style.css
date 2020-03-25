@@ -277,6 +277,7 @@ footer{
     padding: 30px;
   }
   .btn-group{
+       display: block;
        left:57%;
        top:75%;
        width: 10px;
@@ -367,13 +368,19 @@ footer{
   }
 
  .btn-group{
-      left:50%;
-      top:75%;
-      position:fixed;
+      top:5%;
+      position:relative;
       z-index: 999999999;
-      margin: 0 px auto;
-      width: 20em;
-      height: 20em;
+      margin:auto;
+ }
+
+ .center{
+   margin: auto;
+   width: 20%;
+   height:auto;
+ }
+ .line{
+   margin: -5px;
  }
   .slot {
     display: block;

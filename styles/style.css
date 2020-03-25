@@ -341,14 +341,13 @@ footer{
       /*background: url('../img/machineMobile.png') no-repeat;*/
       background-position:0px 0px;
       background-size: cover;
-      margin: 0px 0px 0px 0px;
+      margin: -20px 0px 0px 0px;
       background-size: 0%;
       /*background-position-x: calc(50% + 30px);*/
       min-height: auto;
     }
     #casino .content > div {
       padding-top:0px;
-      padding-left: -90px;
       width: 100%;
       margin: auto;
       /*transform: translateX(50px);*/

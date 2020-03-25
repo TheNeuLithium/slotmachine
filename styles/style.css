@@ -365,8 +365,8 @@ footer{
   }
 
  .btn-group{
-      left:25%;
-      right:25%;
+      left:40%;
+      right:40%;
       top:75%;
       position:fixed;
       z-index: 999999999;

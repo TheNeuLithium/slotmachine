@@ -348,6 +348,7 @@ footer{
     }
     #casino .content > div {
       padding-top:0px;
+      padding-left: -90px;
       width: 100%;
       margin: auto;
       /*transform: translateX(50px);*/

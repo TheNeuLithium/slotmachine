@@ -243,40 +243,62 @@ footer{
 
 .github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
 
-@media all and (max-width:800px){
+@media all and (max-width:1200px){
+
   p{
     margin: 0px 0px;
     text-align: left;
-    padding-left: 1px;
+    padding-left: 10px;
+    color:white;
+    font-size: 10px;
+  }
+  li{
+    padding-left: 10px;
+    font-size: 10px;
     color:white;
   }
-
   #casino .content:nth-child(1) {
     background-size: 90%;
     /*background-position-x: calc(50% + 30px);*/
-    min-height: 450px;
+    min-height: 400px;
+    background-color: #000000;
   }
-
   #casino .content > div {
-    padding-top: 175px;
-    padding-left:50px;
+    padding-top: 70px;
+    padding-left:20px;
+    padding-right:20px;
     width: 100%;
     /*jiaqi...width: 300px;*/
-    margin: -50px auto;
+    margin: 0px auto;
     /*transform: translateX(-50)px);*/
   }
   #casino .btn-group .btn {
     padding: 30px;
   }
   .btn-group{
-       left:60%;
-       top:80%;
+       left:57%;
+       top:75%;
        width: 10px;
        height: 10px;
   }
+
+  .slot {
+    display: block;
+    margin: 0px 5px 0px 5px;
+  }
   .slotMachine{
-    width: 100px;
-    height:100px;
+    width: 150px;
+    height:200px;
+    display: inline-block;
+  }
+  .soundSlot{
+    margin: 0px 0px 0px 0px;
+    width: 150px;
+    height: 200px;
+  }
+  .textSlot{
+    width:200px;
+    height: 100px;
   }
 }
 
@@ -355,7 +377,6 @@ footer{
     display: block;
     margin: 0px 0px 0px 0px;
   }
-
 
   .slotMachine{
     margin: 0px 0px 10px 0px;

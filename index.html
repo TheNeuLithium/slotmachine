@@ -194,7 +194,7 @@
 
     // 3. This function creates an <iframe> (and YouTube player)
     //    after the API code downloads.
-    var video0; var video1; var video2; var video3; var video4; var video5;
+    var video1; var video2; var video3; var video4; var video5;
     var audio0; var audio1; var audio2; var audio3; var audio4; var audio5;
 
     function onYouTubeIframeAPIReady() {
@@ -276,7 +276,9 @@
         playerVars: {
           'rel': 0,
           'controls': 0,
-          'autoplay': 1
+          'autoplay': 1,
+          'loop':1,
+          'playlist': '9vV4Q7ZyLbk'
         }
       });
       //Katie
@@ -286,7 +288,9 @@
         videoId: 'rGycZ_wgSHU',
         playerVars: {
           'rel': 0,
-          'controls': 0
+          'controls': 0,
+          'loop':1,
+          'playlist': 'rGycZ_wgSHU'
         }
       });
       //Alan audio
@@ -296,7 +300,9 @@
         videoId: 'P6u3TAQ0LcU',
         playerVars: {
           'rel': 0,
-          'controls': 0
+          'controls': 0,
+          'loop':1,
+          'playlist': 'P6u3TAQ0LcU'
         }
       });
       //Manisha
@@ -306,7 +312,9 @@
         videoId: '32UFkpEsUQU',
         playerVars: {
           'rel': 0,
-          'controls': 0
+          'controls': 0,
+          'loop':1,
+          'playlist': '32UFkpEsUQU'
         }
       });
       //Keer
@@ -316,7 +324,9 @@
         videoId: 'NhviYZbvV-4',
         playerVars: {
           'rel': 0,
-          'controls': 0
+          'controls': 0,
+          'loop':1,
+          'playlist': 'NhviYZbvV-4'
         }
       });
       //Keer
@@ -326,7 +336,9 @@
         videoId: 'NhviYZbvV-4',
         playerVars: {
           'rel': 0,
-          'controls': 0
+          'controls': 0,
+          'loop':1,
+          'playlist': 'NhviYZbvV-4'
         }
       });
     }
@@ -353,12 +365,12 @@
 
   <script id="codeBlock6">
     btnShuffle.addEventListener('click', () => {
-      audio0.stopVideo();
-      audio1.stopVideo();
-      audio2.stopVideo();
-      audio3.stopVideo();
-      audio4.stopVideo();
-      audio5.stopVideo();
+      audio0.pauseVideo();
+      audio1.pauseVideo();
+      audio2.pauseVideo();
+      audio3.pauseVideo();
+      audio4.pauseVideo();
+      audio5.pauseVideo();
 
       count = 3;
       mCasino1.shuffle(9999);
@@ -393,7 +405,7 @@
           mCasino2.stop(function playVideo() {
             console.log("videoFile"+ mCasino2.visibleTile);
             if (mCasino2.visibleTile == 0) {
-              video0.playVideo();
+
             }
             if (mCasino2.visibleTile == 1) {
               video1.playVideo();
